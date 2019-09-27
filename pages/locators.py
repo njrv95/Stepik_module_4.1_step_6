@@ -6,3 +6,6 @@ class MainPageLocators():
 class LoginPageLocators():
     LOGIN_FORM = (By.ID, "login_form")
     REGISTER_FORM = (By.ID, "register_form")
+
+class ProductPageLocators():
+    ADD_TO_CART_BUTTON = (By.XPATH, "//button[@class='btn btn-default']")
