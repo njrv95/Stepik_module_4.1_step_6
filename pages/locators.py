@@ -8,4 +8,4 @@ class LoginPageLocators():
     REGISTER_FORM = (By.ID, "register_form")
 
 class ProductPageLocators():
-    ADD_TO_CART_BUTTON = (By.XPATH, "//button[@class='btn btn-default']")
+    ADD_TO_CART_BUTTON = (By.XPATH, "//*[@id='add_to_basket_form']/button")
