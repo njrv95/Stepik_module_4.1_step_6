@@ -1,3 +1,4 @@
+from pages.locators import BasePageLocators
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 from selenium.common.exceptions import TimeoutException
@@ -48,3 +49,7 @@ class BasePage():
             alert.accept()
         except NoAlertPresentException:
             print("No second alert presented")
+
+    def click_basket_button(self):
+        BASKET_BUTTON_1 = self.browser.find_element(*BasePageLocators.BASKET_BUTTON)
+        BASKET_BUTTON_1.click

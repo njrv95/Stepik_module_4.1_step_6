@@ -1,5 +1,11 @@
 from selenium.webdriver.common.by import By
 
+class BasePageLocators():
+    BASKET_BUTTON = (By.XPATH, "//*[@id='default']/header/div[1]/div/div[2]/span/a")
+
+class BasketPageLocators():
+    BASKET_IS_CLEAR_TEXT = (By.XPATH, "//*[@id='content_inner']/p")
+
 class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
 
