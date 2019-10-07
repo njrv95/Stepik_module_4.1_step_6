@@ -1,7 +1,6 @@
 atomicwrites==1.3.0
 attrs==19.1.0
 colorama==0.4.1
-html-testRunner==1.2
 importlib-metadata==0.20
 Jinja2==2.9.5
 MarkupSafe==1.1.1
